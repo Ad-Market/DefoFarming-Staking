@@ -27,7 +27,7 @@ const StakeDefo: React.FC<StakeProps> = ({}) => {
   const allowance = useAllowanceStaking()
   const {onApprove} = useApproveStaking()
 
-  const tokenBalance = useTokenBalance(contractAddresses.defo[3])
+  const tokenBalance = useTokenBalance(contractAddresses.defo[1])
 
   const {onEnter} = useEnter()
   const {onLeave} = useLeave()
