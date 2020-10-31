@@ -94,7 +94,7 @@ const Balances: React.FC = () => {
               <DefoIcon />
               <Spacer />
               <div style={{ flex: 1 }}>
-                <Label text="Your DEFO Balance" />
+                <Label text="Your sDEFO Balance" />
                 <Value
                   value={!!account ? getBalanceNumber(defoBalance) : 'Locked'}
                 />
@@ -105,7 +105,7 @@ const Balances: React.FC = () => {
         <Footnote>
           Pending harvest
           <FootnoteValue>
-            <PendingRewards /> DEFO
+            <PendingRewards /> sDEFO
           </FootnoteValue>
         </Footnote>
       </Card>
@@ -113,14 +113,14 @@ const Balances: React.FC = () => {
 
       <Card>
         <CardContent>
-          <Label text="Total DEFO Supply" />
+          <Label text="Total sDEFO Supply" />
           <Value
             value={totalSupply ? getBalanceNumber(totalSupply) : 'Locked'}
           />
         </CardContent>
         <Footnote>
           New rewards per block
-          <FootnoteValue>100 DEFO</FootnoteValue>
+          <FootnoteValue>100 sDEFO</FootnoteValue>
         </Footnote>
       </Card>
     </StyledWrapper>
