@@ -60,14 +60,14 @@ const StakeDefo: React.FC<StakeProps> = ({}) => {
           <StyledCardHeader>
             <CardIcon>👨🏻‍🍳</CardIcon>
             <Value value={getBalanceNumber(tokenBalance)}/>
-            <Label text={`DEFO Tokens Available`}/>
+            <Label text={`sDEFO Tokens Available`}/>
           </StyledCardHeader>
           <StyledCardActions>
             {!allowance.toNumber() ? (
               <Button
                 disabled={requestedApproval}
                 onClick={handleApprove}
-                text={`Approve DEFO`}
+                text={`Approve sDEFO`}
               />
             ) : (
               <>
