@@ -37,13 +37,13 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
       return (
         <div>
           <p> With great pleasure we would like to invite you the launch
-              of Omakase Bar!
+              of sDefo!
           </p>
-          <p> Omakase Bar will be the home of our new frontend, and provides
+          <p> sDefo will be the home of our new frontend, and provides
               an interface for all interactions with the DefoSwap protocol.
           </p>
-          <p> Development will be on going, and defoswapclassic will still
-              exist in the interim as we work to get Omakase Bar completely
+          <p> Development will be on going, and defoswap will still
+              exist in the interim as we work to get sDefo completely
               polished.
           </p>
         </div>
@@ -51,8 +51,8 @@ const DisclaimerModal: React.FC<DisclaimerModal> = ({
     } else {
       return (
         <div>
-          <StyledLink target="_blank" href="https://defoswap.fi">
-            Click here to access Omakase Bar.
+          <StyledLink target="_blank" href="https://app.defhold.com">
+            Click here to access sDefo.
           </StyledLink>
         </div>
       )
