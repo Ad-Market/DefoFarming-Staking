@@ -14,7 +14,7 @@ const Home: React.FC = () => {
       <PageHeader
         icon={<img src={chef} height={120} />}
         title="DEFO IS READY FOR YOU...!!!!"
-        subtitle="Stake DefoSwap LP tokens to claim your very own DEFO!"
+        subtitle="Stake DefoSwap LP tokens to claim your very own sDEFO!"
       />
 
       <Container>
@@ -22,7 +22,7 @@ const Home: React.FC = () => {
       </Container>
       <Spacer size="lg" />
       <StyledInfo>
-        🏆<b>Pro Tip</b>: DEFO-ETH SLP token pool yields 5x more token
+        🏆<b>Pro Tip</b>: sDEFO-ETH SLP token pool yields 5x more token
         rewards per block.
       </StyledInfo>
       <Spacer size="lg" />
@@ -31,7 +31,7 @@ const Home: React.FC = () => {
           margin: '0 auto',
         }}
       >
-        <Button text="🔪 See the Menu" to="/farms" variant="secondary" />
+        <Button text="🔪 See the Farm" to="/farms" variant="secondary" />
       </div>
     </Page>
   )
